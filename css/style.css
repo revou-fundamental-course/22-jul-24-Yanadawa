@@ -226,3 +226,16 @@ input, .destination{
 .content p {
   margin-top: 5px;
 }
+
+/* Branding */
+
+.branding{
+    padding-top: 40px;
+    background-color: #ffffff;
+    height: 20vh;
+}
+
+.custom-list {
+  list-style-type: decimal;
+  margin-left: 50px;
+}
