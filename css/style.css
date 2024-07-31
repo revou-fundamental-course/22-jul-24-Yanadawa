@@ -151,12 +151,12 @@ nav ul li{
 
 input, .destination{
     height: 30px;
-    width: 200px;
+    width: 100%;
 }
 
 .btn{
     height: 25px;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     background-color: rgb(37, 37, 37);
     color: white;
@@ -238,4 +238,104 @@ input, .destination{
 .custom-list {
   list-style-type: decimal;
   margin-left: 50px;
+}
+
+/* Product */
+
+.product-container{
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.product-items{
+  background-color: #ffffff;
+  padding-top: 10px;
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.product-item {
+width: 30%;
+height: 50%;
+margin-bottom: 20px;
+background-color: #ffffff;
+align-items: center;
+border: #535353 solid 2px;
+border-radius: 10px;
+padding: 2px;
+}
+
+.inner-product {
+display: flex;
+align-items: center;
+}
+
+/* About */
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-header{
+  padding-top: 10px;
+}
+
+.btn-wrapper{
+  display: flex;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.btn-container{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-about{
+  font-size: large;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.btn-about:hover{
+  background-color: rgba(169, 173, 177, 1);
+  transition: .4s;
+  color: #ffffff;
+}
+
+.btn-about:visited{
+  color: white;
+}
+
+.btn-about:link{
+  color: #66ff66;
+}
+
+.btn-about:hover{
+  color: white;
+}
+
+.btn-about:active{
+  color: #0099e6;
+}
+
+/* footer */
+.footer-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
