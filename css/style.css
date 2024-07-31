@@ -19,18 +19,6 @@ body{
     position: relative;
 }
 
-.logo a{
-    font-size: 50px;
-    font-weight: 800;
-    float: left;
-    font-family: courier;
-    color: #364f6b;
-}
-
-.logo{
-    line-height: 80px;;
-}
-
 .menu{
     float: right;
     padding-bottom: 15px;
@@ -87,17 +75,19 @@ nav ul li{
 
 /* home */
 
-.home{
-    background-color: #364f6b;
+.grid-container{
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1.5fr 1fr;
 }
 
 .home-title{
-    padding-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 80px;
 }
 
 .banner{
-    display: inline-block;
-    margin-left: 40px;
+    padding: 20px;
 }
 
 .carousel {
@@ -144,7 +134,95 @@ nav ul li{
 }
 
 .form{
+    width: 50%;
+    height: auto;
+    padding-left: 40%;
+}
+
+.message-us{
+    background-color: rgba(169, 173, 177, .5);
+    border-radius: 10px;
+    height: 350px;
+    width: auto;
+    justify-items: start;
+    justify-content: center;
+    align-items: center;
+}
+
+input, .destination{
+    height: 30px;
+    width: 200px;
+}
+
+.btn{
+    height: 25px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+
+}
+
+.btn:hover{
+    background-color: rgba(169, 173, 177, 1);
+    transition: .4s;
+}
+
+.input-form{
+    padding: 8px;
+}
+
+/* Testimonial */
+
+.container{
+    background-color: rgba(169, 173, 177, 1)
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial-list{
     display: flex;
-    float: right;
-    margin-right: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.testimonial-item {
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  align-items: center;
+  border: #535353 solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.inner-testimonial {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  margin-right: 15px;
+}
+
+.bg-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.content h3 {
+  margin: 0;
+}
+
+.content p {
+  margin-top: 5px;
 }
